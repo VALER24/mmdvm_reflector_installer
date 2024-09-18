@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/
-ExecStart=/MMDVM_Reflector_Installer/MMDVM_Reflector/bin/Debug/net8.0/MMDVM_Reflector --config=/MMDVM_Reflector/MMDVM_Reflector/configs/config.yml
+ExecStart=/mmdvm_reflector_installer/MMDVM_Reflector/bin/Debug/net8.0/MMDVM_Reflector --config=/MMDVM_Reflector/MMDVM_Reflector/configs/config.yml
 Restart=always
 RestartSec=10
 
