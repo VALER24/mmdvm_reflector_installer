@@ -2,6 +2,7 @@
 
 ## To install via the script:
  - `sudo -s`
+ - `apt update && apt upgrade`
  - `apt install git`
  - `cd /`
  - `git clone https://github.com/VALER24/mmdvm_reflector_installer`
